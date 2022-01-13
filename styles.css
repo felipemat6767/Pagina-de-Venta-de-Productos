@@ -21,12 +21,59 @@
 }
 
 .altura{
-    height: 500px;
+    height: 464px;
+}
+.fondo
+{position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.fondo h3{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 45px;
+    color: aliceblue;
+    font-weight: 800;
+    top: 5%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+}
+.alturapaisaje{
+    height: 220px;
+    width: 350px;
 }
 
 .colorseparacion{
     background-color: rgb(171, 146, 194);
+    background-image: url("../css\img\Fondo.jpg");
     border-radius: 10%;
-    color:  white;
     font-weight: 700;
+}
+.bordernone{
+    border: none;
+}
+
+.w20{
+    width: 100%;
+}
+.decornav span,
+.decornav a
+{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    color: white;
+    font-family: 800;
+    
+}
+.decornav a:hover{
+    color:rgb(163, 65, 65);
+    font-size: 20px;
+    font-weight: 700;
+    
 }
