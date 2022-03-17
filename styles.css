@@ -1,3 +1,52 @@
+.navbar-bg{
+    background-color: rgb(187, 187, 114);
+}
+.colorseparacion{
+    background-color: rgb(171, 146, 194);
+    background-image: url("../css\img\Fondo.jpg");
+    border-radius: 10%;
+    font-weight: 700;
+}
+.bordernone{
+    border: none;
+}
+
+.w20{
+    width: 100%;
+}
+.dflex-dircol{
+    display: flex;
+    flex-direction: column;
+}
+.navbar-Text{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.decornav a {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    color: white;
+    font-family: 800;
+    
+}
+.decornav a:hover, .decornav span:hover{
+    color:rgb(163, 65, 65);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.decornav span{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    color: black;
+    font-family: 800;
+}
 .iconos-acceso i,
 .iconos-compra i {
     font-size: 22px;
@@ -14,7 +63,22 @@
 .iconos-compra i {
     font-size: 28px;
 }
+.titulo, .footelem{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.4s;
+    font-size: 18px;
+    text-decoration: none;
+}
+.titulo:hover, .footelem:hover{
+    color: rgb(173, 155, 50);
+    text-decoration: none;
+    cursor: pointer;
+}
 
+.precio{
+    color: rgb(59, 58, 58);
+    font-weight: 700;
+}
 .contenido-acceso {
     display: flex;
     justify-content: space-around;
@@ -38,42 +102,18 @@
     font-size: 45px;
     color: aliceblue;
     font-weight: 800;
-    top: 5%; /* Adjust this value to move the positioned div up and down */
+    top: 5%; 
     text-align: center;
-    width: 60%; /* Set the width of the positioned div */
+    width: 60%; 
 }
 .alturapaisaje{
     height: 220px;
     width: 350px;
 }
 
-.colorseparacion{
-    background-color: rgb(171, 146, 194);
-    background-image: url("../css\img\Fondo.jpg");
-    border-radius: 10%;
-    font-weight: 700;
-}
-.bordernone{
-    border: none;
-}
-
-.w20{
-    width: 100%;
-}
-.decornav span,
-.decornav a
-{
+.footer-tit{
+    color: black;
+    font-weight: 600;
     font-size: 17px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transition: all 0.4s;
-    text-transform: uppercase;
-    color: white;
-    font-family: 800;
-    
-}
-.decornav a:hover{
-    color:rgb(163, 65, 65);
-    font-size: 20px;
-    font-weight: 700;
     
 }
